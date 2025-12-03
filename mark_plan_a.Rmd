@@ -105,7 +105,7 @@ Additionally, this form of advertising aims to position P.R.O.V. as a trusted pa
 
 ```{r, echo=FALSE}
 
-knitr::include_graphics("C:/Users/kahla/OneDrive/Documents/EManagement_Module1/my_portfolio/Screenshot 2025-04-08 170832.png")
+knitr::include_graphics("Screenshot 2025-04-08 170832.png")
 
 ```
 
