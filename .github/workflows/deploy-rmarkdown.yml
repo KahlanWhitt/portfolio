@@ -24,10 +24,10 @@ uses: actions/checkout@v4
     uses: r-lib/actions/setup-pandoc@v2
   
   - name: Install R packages
-    run: install.packages(c("rmarkdown", "knitr", "ggplot2", "dplyr"))
+    run: Rscript -e 'install.packages(c("rmarkdown", "knitr", "ggplot2", "dplyr"))'
   
   - name: Render R Markdown site
-    run: Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
+    run: Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
   
   - name: Setup Pages
     uses: actions/configure-pages@v4
