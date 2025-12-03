@@ -17,5 +17,9 @@ uses: actions/checkout@v4
       use-public-rspm: true
   
   - name: Install Pandoc
-    uses: 
+    uses: r-lib/actions/setup-pandoc@v2
+  
+  - name: Install R packages
+    
 ```
+
