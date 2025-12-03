@@ -62,7 +62,7 @@ Contact us to begin your next project:
 
 - Email: [kahlanwhitt@gmail.com](mailto:kahlanwhitt@gmail.com)
 - LinkedIn: [Kahlan Whitt](www.linkedin.com/in/kahlan-whitt-24b415325)
-- GitHub: [yourusername](https://github.com/yourusername)
+- GitHub: [KahlanWhitt](https://github.com/KahlanWhitt)
 
 
 [← Back to Home](index.html)
