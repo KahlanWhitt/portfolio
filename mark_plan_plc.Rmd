@@ -1,0 +1,155 @@
+---
+title: "Product Life Cycle and Buying Continuum"
+output:
+  html_document:
+    preserve_html: true
+---
+
+<br>
+
+## Life Cycle
+
+The product life cycle has four stages, those being: 
+
+#### 1) Birth
+
+Prosthetic and orthotic brands are typically not well-known unless specifically researched, as the average consumer doesn’t encounter these products in their daily life. Therefore, P.R.O.V. must establish a strong presence on platforms where our target market is already active and engaged.
+
+#### 2) Growth
+
+In the growth stage, the product is introduced to the target market with a focus on highlighting its benefits. Our promotional strategy includes partnerships with clinics and rehabilitation centers. Winners of the promotion will receive a free consultation and fitting for a prosthetic or orthotic device, along with tickets to a brand-hosted event and workshop. These initiatives aim to increase brand awareness and build a positive reputation within the target market.
+
+#### 3) Maturity
+
+Once a relationship with the consumer is established, the maturity stage focuses on customer retention and product expansion. Recurring customers may seek to explore additional offerings, while new customers are likely to be referred by satisfied clients. Given the niche nature of the market, word-of-mouth and reputation play a key role in sustaining growth.
+
+#### 4) Obsolescence
+
+Obsolescence may occur if the target market loses interest in our offerings or if our brand no longer aligns with their needs or values. When this happens, we will emphasize the unique benefits of our products over competitors and explore innovative directions to re-engage the market and remain relevant.
+
+---
+
+## Buying Continuum
+
+<style>
+pre, code, kbd, samp, .sourceCode, .sourceCode pre {
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+}
+
+/* Sometimes RMarkdown wraps HTML in <pre><code> unexpectedly */
+pre > code {
+  white-space: normal !important;
+}
+
+/* Also override bootstrap's .card and .well classes used in some themes */
+.card, .well, .panel-body {
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}
+</style>
+
+<style>
+/* layout */
+.step-container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin: 40px 0;
+}
+
+/* title */
+.step-title{
+  font-size:28px;
+  font-weight:700;
+  padding:10px 25px;
+  border:2px solid #000;
+  border-radius:12px;
+  box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+  background:#fff;
+  margin-bottom:10px;
+}
+
+/* body box: normal text flow (not pre/code) */
+.step-box{
+  width:520px;              
+  padding:20px;
+  border:1px solid #999;
+  border-radius:6px;
+  box-shadow:2px 2px 4px rgba(0,0,0,0.45);
+  background:#fff;
+  text-align:center;
+
+  white-space: normal !important;      
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+  font-family: "Georgia", "Times New Roman", serif !important;
+  font-size:16px;
+  line-height:1.5;
+  letter-spacing: normal;
+}
+
+/* arrow style */
+.arrow{
+  font-size:40px;
+  margin:12px 0;
+}
+</style>
+
+<div class="step-container">
+  <div class="step-title">Unaware</div>
+  <div class="arrow">⬇️</div>
+  <div class="step-box">
+    Initially, our consumers do not know of our brand in any capacity, meaning that we have to get their attention in some way.
+  </div>
+</div>
+
+<div class="step-container">
+  <div class="step-title">Aware</div>
+  <div class="arrow">⬇️</div>
+  <div class="step-box">
+    This stage involves informing our target market that we exist; this will include advertising and promotions presented through those advertisements.
+  </div>
+</div>
+
+<div class="step-container">
+  <div class="step-title">Interest</div>
+  <div class="arrow">⬇️</div>
+  <div class="step-box">
+    We highlight key dissatisfactions to attract our target market with things like limited payment options, lack of sustainable brands, and low product durability.
+  </div>
+</div>
+
+<div class="step-container">
+  <div class="step-title">Desire</div>
+  <div class="arrow">⬇️</div>
+  <div class="step-box">
+    We then present the target market with the solutions to the dissatisfactions that our brand provides, including proof of solutions that we implement.
+  </div>
+</div>
+
+<div class="step-container">
+  <div class="step-title">Info Search</div>
+  <div class="arrow">⬇️</div>
+  <div class="step-box">
+    After capturing the target market's attention and sharing key brand information, it's now up to the consumer to explore other options and decide if they prefer our brand.
+  </div>
+</div>
+
+<div class="step-container">
+  <div class="step-title">Sale</div>
+  <div class="arrow">⬇️</div>
+  <div class="step-box">
+    The consumer then purchases our product with the influence and help from our Marketing Mix.
+  </div>
+</div>
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

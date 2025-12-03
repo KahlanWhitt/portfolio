@@ -1,0 +1,92 @@
+---
+title: "Consumer Survey"
+---
+
+<br>
+
+The purpose of our consumer survey is to gather valuable insights about our users needs, experiences, expectations, and attitudes toward prosthetics and orthotics.
+
+**Demographics & Background**
+
+What is your age group? 
+
+☐Under 18  ☐18–30  ☐31–45 ☐46–60  ☐60+
+
+<br>
+
+Are you currently using a prosthetic or orthotic device?
+
+☐Yes  ☐No  ☐Not yet, but considering
+
+<br>
+
+What is the main reason you use or are considering a prosthetic/orthotic? (e.g., injury, congenital condition, amputation, support for mobility, etc.)
+
+<br>
+
+**Product Awareness & Interest**
+
+How familiar are you with the P.R.O.V. brand?
+
+Scale: 1 (Not at all) – 5 (Very familiar)
+
+<br>
+
+Where did you first hear about P.R.O.V.?
+
+☐Clinic/Doctor  ☐Event/Workshop  ☐Social Media  ☐Ad/Newsletter ☐Word of Mouth  ☐Other: _______
+
+<br>
+
+Which features are most important to you in a prosthetic/orthotic?
+(Select all that apply)
+
+☐Comfort  ☐Durability  ☐Custom Fit  ☐Appearance  ☐Technology ☐Price  ☐Brand Reputation
+
+<br>
+
+**Experience & Satisfaction**
+
+If you currently use a prosthetic/orthotic, how satisfied are you with your current device?
+
+Scale: 1 (Very Dissatisfied) – 5 (Very Satisfied)
+
+<br>
+
+What challenges have you faced in finding or using prosthetics/orthotics? (Open-ended)
+
+<br>
+
+**Branding, Events & Promotions**
+
+Does the slogan "Move Freely, Live Fully" resonate with you?
+
+☐Yes  ☐No  ☐Somewhat
+
+<br>
+
+Would you be interested in attending a free workshop or community event?
+
+☐Yes  ☐No  ☐Maybe – need more info
+
+<br>
+
+What type of event would be most helpful or interesting to you? (e.g., product demos, speaker panels, Q&A with users, 1-on-1 consultations, etc.)
+
+<br>
+
+**Final Thoughts**
+
+What would make you more likely to choose P.R.O.V. for your prosthetic/orthotic needs? (Open-ended)
+
+<br>
+
+Do you have any additional feedback or suggestions?
+
+<br>
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

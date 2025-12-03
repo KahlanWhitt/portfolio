@@ -1,0 +1,51 @@
+---
+title: "Distribution"
+---
+
+<br>
+
+### Decisions for Distribution Channel
+
+The choice of distribution method was determined using the 9-Decision model for distribution. 
+
+#### 1. Domestic to Consumer
+
+Because prosthetics and orthotics are specific to the individual buyer and are bought for personal use.
+
+#### 2. Health and Wellness
+
+Prosthetics and orthotics are in the health and wellness product category due to their assistance in daily living for those with health issues or amputations. 
+
+#### 3. Manufacturer to Retailer, Retailer to Consumer
+
+Because prosthetics are highly personalized, specifications must be sent to the manufacturer. While some parts can be bought from wholesalers, most are distributed from manufacturers to retailers.
+
+#### 4. Prompt Delivery (if wholesaler was used for parts)
+
+Due to personalized parts, prompt delivery from a wholesaler is crucial, as these components are essential for assembling each order.
+
+#### 5. Merchant 
+
+If a wholesaler is used, they would need to take physical possession of the parts in order to assemble the product.
+
+#### 6. Specialty Line
+
+Personalised customer service, high-quality selections, and a reliable supply chain are necessities when dealing with custom orders like prosthetics.
+
+#### 7. Manufacturers’ Sales Agent
+
+A manufacturers’ sales agent focuses on specific industries or product lines–like prosthetics and orthotics–providing targeted sales strategies.
+
+#### 8. Services and Advice/Expertise 
+
+Retailers assisting customers with prosthetics and orthotics must have the skills and market knowledge to serve them effectively.
+
+#### 9. Single line
+
+No two people have the same experience, so while P.R.O.V.'s products may be similar, each will have unique qualities suited to the individual consumer.
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

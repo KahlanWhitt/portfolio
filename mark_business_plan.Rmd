@@ -1,0 +1,67 @@
+
+---
+title: "Marketing Business Plan"
+---
+
+<br>
+
+## P.R.O.V.
+### Prosthetic Rehabilitation for Optimized Versatility
+#### *Move freely, live fully*
+
+<br>
+
+### Overview of Brand
+
+P.R.O.V. (Prosthetic Rehabilitation for Optimized Versatility) is a Canadian-based prosthetics and orthotics company with a mission to empower users through personalized, high-quality mobility solutions. Guided by the slogan “Move Freely, Live Fully,” the brand centers its efforts on enhancing mobility, independence, and quality of life for users of all ages and backgrounds. P.R.O.V. stands out by offering durable, sustainable products and an inclusive payment model to improve accessibility for lower-income households.
+
+The brand enters a steadily growing market, with Canada’s prosthetics sector valued at approximately $136.6 million. Using a trend-based forecasting model, P.R.O.V. anticipates steady growth, with projections of 100 units sold in the first year, increasing to over 700 by Year 5 through expanded partnerships, community events, and product diversification. Competitive analysis reveals P.R.O.V.’s edge in customization, packaging quality, and consumer-centric branding—elements that are supported by a market strategy targeting middle- to high-income consumers, athletes, older adults, and veterans.
+
+P.R.O.V. employs a multi-channel approach that includes partnerships with clinics, targeted media advertising, and interactive promotional events. A unique packaging strategy emphasizes reusability, protection, and personalization, while the pricing structure ensures both affordability and profitability. Overall, P.R.O.V. positions itself as an innovative and compassionate player in the prosthetics market, with long-term growth rooted in quality, accessibility, and community connection.
+
+
+<br>
+
+#### Table of Contents
+
+- [Executive Summary](mark_plan_es.html)
+
+- [Market Forecast](mark_plan_mf.html)
+
+- [Competitor Analysis: Microprocessor Knee (MPK)](mark_plan_ca.html)
+
+- [Potential Segments](mark_plan_ps.html)
+
+- [Consumer Survey](mark_plan_cs.html)
+
+- [SWOT Analysis](mark_plan_swot.html)
+
+- [Estimated Annual Purchases and First-Year Sales](mark_plan_fys.html)
+
+- [Target Market and Perceptual Map](mark_plan_tm.html)
+
+- [Product Life Cycle and Buying Continuum](mark_plan_plc.html)
+
+- [Marketing Mix](mark_plan_mm.html)
+
+- [Value Chain](mark_plan_vc.html)
+
+- [Branding and Product Promise](mark_plan_bp.html)
+
+- [Pricing](mark_plan_p.html)
+
+- [Packaging](mark_plan_pack.html)
+
+- [Distribution](mark_plan_d.html)
+
+- [Promotion](mark_plan_pro.html)
+
+- [Advertising](mark_plan_a.html)
+
+- [Performance Evaluation](mark_plan_pe.html)
+
+---
+
+[← Back to Projects](personal_project.html)
+
+[← Back to Home](index.html)

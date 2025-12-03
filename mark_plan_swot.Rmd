@@ -1,0 +1,41 @@
+---
+title: "SWOT Analysis"
+---
+
+<br>
+
+### Internal
+
+#### Strengths
+
+- Widely available materials for production
+- Unique technology used
+- Strong collaboration amongst a small
+
+#### Weaknesses
+
+- Narrow product range
+- Inadequate supply chain
+- Shortage of staff
+
+<br>
+
+### External
+
+#### Opportunities
+
+- Increased remuneration raises production rate and accessibility to consumers
+- Rapidly increasing medical device industry
+- Geographical expansion towards developing countries
+
+#### Threats
+
+- Limited range of brands leading to harsher brand competitions
+- Narrow field of research
+- Legal and regulatory issues
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

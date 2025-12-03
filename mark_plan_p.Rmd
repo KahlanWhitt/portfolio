@@ -1,0 +1,25 @@
+---
+title: "Pricing"
+---
+
+<br>
+
+For the first year of production, P.R.O.V. plans to manufacture 250 units of its custom prosthetic and orthotic devices. Each unit is produced at an estimated invoice cost of $650, which includes high-quality materials, personalized fitting, engraved case packaging, and dermatological testing. This results in a total production invoice of $162,500.
+
+Due to the relatively small production volume, P.R.O.V. secures a modest quantity discount of $50 per 50 units, which totals a discount of $250, reducing the adjusted production invoice to $162,250.
+
+In addition to manufacturing, costs for transportation ($6,500) and insurance ($4,000) are added, bringing the total first-year production and logistics cost to $172,750. The Real Unit Cost (RUC) is calculated to be $691 per unit.
+
+To ensure sustainable margins, P.R.O.V. applies a 15% markup to this RUC when selling directly to retailers. This results in a Manufacturer-to-Retailer price of $794.65 per unit.
+
+Retailers are expected to order in batches of 5 to 10 units, and for orders of 10 or more, a bulk discount of $200 total per order is applied, effectively reducing the per-unit cost slightly for larger orders. In addition, retailers will incur their own shipping ($2,500) and insurance ($2,000) costs for receiving and managing product storage and display, totaling $4,500, which brings the retailer’s RUC to around $812 per unit (after discounts and added expenses).
+
+To maintain profitability and reflect the value-added service provided in-store (e.g., consultation, support, and fitting appointments), retailers will apply a 20% markup to the final product, bringing the Retail Price to Consumers to approximately $974.40 per unit.
+
+This pricing structure allows P.R.O.V. to maintain product quality and personalized service while ensuring value across the supply chain. Future pricing strategies may include promotional bundles, subscription-based support plans, or discounts for veterans, seniors, and essential service providers to further enhance accessibility.
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

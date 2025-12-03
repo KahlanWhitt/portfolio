@@ -1,0 +1,99 @@
+
+---
+title: <u> About The Brand </u>
+---
+
+<br>
+
+## Who We Are
+
+Vellum Advising Co. was founded on the idea that meaningful relationships drive the cultural world forward. Rooted in both academic study and hands-on experience, the brand blends analytical thinking, global insight, and a genuine respect for artistic value.
+
+Our mission is simple:
+to strengthen the networks that connect art collectors, curators, investors, museums, and galleries around the world.
+
+We approach every partnership with thoughtfulness, cultural awareness, and a commitment to helping art move with purpose.
+
+---
+
+## Our Background
+
+Vellum’s perspective is shaped by research, travel, and conversations with art professionals across countries and institutions. This foundation provides a deep understanding of how artworks circulate, how cultural organizations communicate, and how curatorial decisions influence the movement and preservation of art.
+
+Our background includes:
+
+- Coursework in art theory, art history, global history, and performance arts
+- Knowledge of cultural institutions, curatorial practice, and how organizations negotiate art movement
+- Experience across diverse art environments through interviews, travel, and field research
+
+This combination of academic grounding and real-world exposure allows Vellum Advising Co. to support clients with clarity, cultural sensitivity, and strategic insight.
+
+---
+
+## Analytical Strength
+
+Alongside a strong foundation in art history and cultural insight, Vellum Advising Co. integrates advanced analytical capabilities to support informed, strategic decision-making.
+In a global art environment where valuation, provenance, audience trends, and institutional capacity matter more than ever, the ability to interpret data thoughtfully becomes a powerful advantage.
+
+Our analytical expertise strengthens every client partnership by ensuring that recommendations are not only culturally intuitive, but also grounded in measurable evidence, operational reasoning, and strategic foresight.
+
+#### **Analysis & Strategy:**
+
+We apply data-driven thinking to help clients navigate opportunities within the art world. This includes:
+
+- Conducting quantitative analysis in R to evaluate exhibition patterns, collector trends, and market indicators.
+- Performing data cleaning and transformation to turn raw information into reliable, decision-ready insights.
+- Using statistical techniques to identify meaningful patterns, risks, and opportunities relevant to acquisitions, loans, or curatorial planning.
+- Integrating both qualitative and quantitative information to support balanced, well-reasoned strategies.
+
+Whether assessing the potential of a new exhibition, evaluating donor activity, or preparing acquisition justifications, our analytical approach ensures every recommendation rests on a solid foundation.
+
+#### **Visualization & Reporting:**
+
+Presenting information clearly is just as important as analyzing it. Vellum specializes in transforming complex findings into clean, compelling narratives that support informed communication across institutions.
+
+Capabilities include:
+
+- Creating professional-grade data visualizations using ggplot2
+- Building reproducible reports in R Markdown for internal teams, partners, or board presentations
+- Designing data storytelling that communicates insights to both business audiences and cultural stakeholders
+- Tailoring reports that translate technical findings into meaningful strategic guidance
+
+Our goal is to make data accessible, visually clear, and directly linked to actionable outcomes.
+
+#### **Data Sources & Integration:**
+
+To support flexible and accurate analysis, we work with a variety of data sources, including:
+
+- CSV and spreadsheet-based datasets
+- Government open data portals and APIs
+- Cultural sector, nonprofit, and business performance datasets
+- Operational metrics from galleries, museums, or event partners (when available)
+
+This versatility ensures that regardless of the scope or origin of the information, Vellum Advising Co. can analyze, interpret, and integrate it into thoughtful recommendations for clients.
+
+---
+
+## Education
+
+**VIU** - E-Management Program  
+*Graduation: [2028]*
+
+
+Our foundation is built on a combination of academic study and experiential knowledge.
+Background includes:
+
+- Coursework in art theory, art history, global history, and performance arts
+- An informed understanding of cultural institutions and curatorial communication
+- Experience working across diverse art environments through interviews, travel, and research
+
+Vellum Advising Co. brings a thoughtful, educated perspective to every partnership.
+
+<br>
+
+Learn more [about the owner](aboutme.html)
+
+---
+
+
+[← Back to Home](index.html)

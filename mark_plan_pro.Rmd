@@ -1,0 +1,70 @@
+---
+title: "Promotion"
+---
+
+<br>
+
+### Theme and Integration into Promotion
+
+P.R.O.V.’s core promotional theme is community and connection, focusing on uniting individuals who share similar experiences and stories. This theme is reflected in our brand's approach to promotions, which center around interactive workshops and events designed to foster support, knowledge-sharing, and awareness.
+
+A key recurring promotion will offer exclusive discounts to veterans, seniors, and essential service workers, honoring their contributions while making our products more accessible.
+
+To generate initial interest and build trust with our target market, P.R.O.V. will launch a flagship workshop event—an educational campaign aimed at informing both patients and healthcare providers about our brand and the innovative technologies behind our prosthetic and orthotic products.
+
+<br>
+
+#### Event Promotion and Communication
+
+To reach our target audience, we will distribute informational flyers in clinics, rehabilitation centers, and other relevant locations. These flyers will clearly communicate:
+
+  1. How to enter the promotional competition
+
+  2. The date and location of the event
+
+  3. When and where contest results will be announced
+
+  4. A breakdown of available prizes
+
+<br>
+
+#### Competition Details
+
+Participants will enter through an online platform by either sharing their personal story or explaining their interest in attending the event. All applicants will automatically receive a general admission ticket to the event. The competition will open two months prior to the event, which will be held at a convention center equipped to host product booths, demos, and large crowds.
+
+<br>
+
+#### Notifications and Ticketing
+
+Within 24 hours of applying, each participant will receive an email with a ticket number. A follow-up email sent one month before the event will confirm their contestant status and prize (if applicable), allowing adequate time to arrange transportation and accommodations.
+
+<br>
+
+#### Prize Tiers
+
+- All Applicants: General admission, including access to inspiring talks from individuals using prosthetics, live demonstrations, and product previews.
+
+- 40 VIP Winners: Exclusive access to a Q&A panel featuring the founders of P.R.O.V. and guest speakers.
+
+- 15 Selected Participants: A free, personalized consultation and product demonstration tailored to their needs.
+
+- 3 Grand Prize Winners: A 45% discount on their first purchase of a P.R.O.V. prosthetic or orthotic product.
+
+This campaign not only drives awareness and engagement but also strengthens our community-first mission by creating meaningful connections with our audience.
+
+<br>
+
+### Promotional Delivery
+
+<br>
+
+```{r, echo=FALSE}
+
+knitr::include_graphics("C:/Users/kahla/OneDrive/Documents/EManagement_Module1/my_portfolio/Screenshot 2025-12-01 112616.png")
+```
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

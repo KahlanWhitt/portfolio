@@ -1,0 +1,50 @@
+
+---
+title: "Welcome to the Vellum Advising Company"
+---
+
+<br>
+
+## Hello and Welcome!
+
+<br>
+
+At Vellum Advising, we elevate collaboration across the global art ecosystem.
+Our boutique consultancy specializes in connecting curators, collectors, investors, museums, and galleries with cultural opportunities that align with their vision and strategic goals.
+
+---
+
+Vellum Advising is grounded in:
+
+Global Perspective: Deep engagement with European and North American cultural institutions
+
+Thoughtful Strategy: Aligning artistic goals with long-term vision
+
+Relationship-Driven Work: Understanding the people behind every project
+
+Purposeful Collaboration: Ensuring every connection supports meaningful cultural outcomes 
+In this website you will find 
+projects showcasing our skills in:
+
+- Data cleaning and transformation
+- Statistical analysis
+- Data visualization with ggplot2
+- Professional reporting with R Markdown
+
+Through projects involving:
+
+- **Government Data Analysis:** Working with real-world public datasets
+- **Business Performance:** Analyzing operational data for insights
+- **Data Visualization:** Creating compelling charts and graphics
+
+---
+
+View our brand and services [here](brand_services.html)
+
+Visit our past projects [here](personal_project.html)
+
+See how we started our company [here](about.html)
+
+---
+
+*This portfolio was built using R Markdown and is hosted on GitHub Pages.*

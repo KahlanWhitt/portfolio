@@ -1,0 +1,264 @@
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+title: "Open Data Network Business Intelligence Report"
+subtitle: "Data-Driven Management Analysis"
+author: "Kahlan Whitt--665757837"
+date: "November 25, 2025"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+---
+
+```{r library (ggplot2)}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+# <u> Affordable Rental Housing Developments in Chicago, Illinois </u>
+
+<br>
+
+## Executive Summary 
+
+\n\ \n\ \n\ This analysis evaluates the distribution and composition of affordable rental housing across Chicago, using verified city-supported datasets from 2018–2024. The study identifies geographic imbalances, with central regions heavily served and eastern and western regions underserved. Multifamily units dominate the city’s supply, while Senior and ARO units remain limited, highlighting gaps in age-specific and smaller-scale housing. Through descriptive analytics, visualizations, and density mapping, the report provides actionable insights for the City of Chicago to prioritize new developments in underrepresented regions and property types, ensuring equitable access and informed resource allocation. These findings directly support data-driven strategic planning for affordable housing expansion and community development.
+
+### Business Problem Definition and Context
+
+\n\ \n\ \n\ Our business needs to analyze how the number and type of affordable housing units are distributed across different sections of the city. This can help identify imbalances in housing availability; for example, areas with many senior units but few family units. By analyzing data on existing affordable housing developments, including location, property type, and units available, the business can prioritize future projects that fill specific gaps in the local housing market and improve overall community access to affordable housing.
+
+```{r}
+
+library(ggplot2)
+
+housing_data <- read.csv("C:\\Users\\kahla\\OneDrive\\Documents\\EManagement_Module1\\my_portfolio\\Housing_Data.csv")
+
+```
+
+<br>
+
+### Data Source Assessment
+
+#### *Background on Data Source*
+
+\n\ \n\ \n\ This data-set was originally compiled by the City of Chicago through various housing programs designed to promote and maintain affordability across local neighborhoods. It was later published on the City of Chicago’s open data portal and subsequently accessed through the Open Data Network. The data-set can be viewed directly at: https://www.opendatanetwork.com/dataset/data.cityofchicago.org/s6ha-ppgi
+
+<br>
+
+#### *Current Information, Limitations and Further Notes*
+
+\n\ \n\ \n\ The Affordable Rental Housing Developments dataset was compiled by the City of Chicago to document housing projects supported through city programs that promote and maintain affordability. The dataset covers properties located within the municipal boundaries of Chicago and includes information such as property type, address, and number of units. It was first published on July 2, 2018, and most recently updated on December 30, 2024. Updates occur periodically, typically when new projects are completed or when the compliance period for older developments expires, which generally occurs after 30 years. While comprehensive in scope for city-supported developments, the dataset does not include naturally occurring affordable housing or all units available for rent. Users should note that information on rent levels or tenant eligibility is not provided and may require direct contact with property managers.
+
+<br>
+
+#### *Access Method and Quality Assessment*
+
+##### Access Method: CSV Download from Open Data Network
+
+```{r}
+
+library(ggplot2)
+
+housing_data <- read.csv("C:\\Users\\kahla\\OneDrive\\Documents\\EManagement_Module1\\my_portfolio\\Housing_Data.csv")
+
+```
+
+This data was gathered as a CSV file from Open Data Network, and then downloaded to my personal Management 230 file to allow access to its information. 
+
+<br>
+
+##### Quality Assessment:
+
+```{r}
+
+dim(housing_data) # Verify rows > 500 and columns >= 57
+
+```
+
+```{r}
+
+str(housing_data)
+
+```
+
+```{r}
+
+colSums(is.na(housing_data))
+
+```
+
+```{r}
+
+(colSums(is.na(housing_data)) / nrow(housing_data)) * 100
+sapply(housing_data, function(x) length(unique(x)))
+
+```
+
+#### Summary:
+
+\n\ \n\ \n\ The Affordable Rental Housing Developments data-set from the City of Chicago is suitable for business decision-making related to housing development planning. It meets data completeness standards, with fewer than 20% missing values overall and key fields, such as property type, address, and number of units, showing minimal missing data. The data-set contains at least two numeric variables (e.g., number of units, geographic coordinates) that support quantitative spatial and capacity analysis, along with categorical variables (e.g., property type, community area) useful for grouping and comparison. While it excludes rent levels and resident demographics, its coverage of verified, city-supported projects ensures reliability for identifying development patterns and underserved areas. Overall, the data-set provides a strong foundation for geographic and capacity-based business analysis, though supplementary data on demand and affordability metrics would enhance decision precision.
+
+<br>
+
+### Data Preparation and Comprehensive Analysis
+
+#### *Location-Based Grouping of Housing Developments* 
+
+```{r}
+
+library(ggplot2)
+
+housing_data <- housing_data[!is.na(housing_data$Longitude) & !is.na(housing_data$Latitude), ]
+
+housing_data$Location_Group <- cut(
+  housing_data$Longitude,
+  breaks = 4,
+  labels = paste("Region", 1:4)
+)
+
+table(housing_data$Location_Group)
+ 
+ggplot(housing_data, aes(x = Longitude, y = Latitude, color = Location_Group)) +
+  geom_point(size = 2, alpha = 1) +
+  labs(
+    title = "Geographic Distribution of Affordable Housing in Chicago",
+    subtitle = "Separated into Four East–West Location Groups",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  scale_color_manual(values = c(
+    "Region 1" = "#d84d35",
+    "Region 2" = "#8edafa",
+    "Region 3" = "#ffd60a",
+    "Region 4" = "#008882"
+  )) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(size = 12)
+  )
+```
+
+\n\ \n\ \n\ Although the graph suggests that numerous affordable housing options exist across Chicago, it also highlights a clear spatial imbalance in their distribution. The concentration of affordable rental developments is noticeably higher in central areas of the city, while availability declines toward both the eastern and western boundaries. This pattern indicates an opportunity to expand affordable housing initiatives beyond the city’s core, increasing accessibility for residents who live or work outside downtown Chicago.
+
+<br>
+
+#### *Housing Type and Unit Distribution Analysis*
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(knitr)
+
+housing_data <- housing_data %>%
+  rename(Property_Type = Property.Type)
+
+summary_full <- housing_data %>%
+  group_by(Location_Group, `Property_Type`) %>%
+  summarise(Total_Units = sum(`Units`, na.rm = TRUE)) %>%
+  arrange(Location_Group)
+
+kable(summary_full, caption = "All Property Types")
+
+summary_filtered <- housing_data %>%
+  filter(`Property_Type` %in% c("Senior", "Multifamily", "ARO")) %>%
+  group_by(Location_Group, `Property_Type`) %>%
+  summarise(Total_Units = sum(`Units`, na.rm = TRUE)) %>%
+  arrange(Location_Group)
+
+kable(summary_filtered, caption = "Filtered Property Types")
+
+```
+
+```{r}
+
+library(ggplot2)
+
+ggplot(summary_filtered, aes(x = Location_Group, y = Total_Units, fill = Property_Type)) +
+  geom_col(position = "dodge") + 
+  labs(
+    title = "Total Affordable Housing Units by Region",
+    subtitle = "Filtered to Senior, Multi-Family, and ARO Properties",
+    x = "Region",
+    y = "Total Units",
+    fill = "Property Type"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(size = 12)
+  )
+
+```
+
+\n\ \n\ \n\ This graph shows that Multifamily properties clearly dominate the total number of affordable housing units across most regions, indicating that the city relies heavily on larger, high-capacity developments to deliver affordable supply. ARO units contribute meaningfully but remain secondary, while Senior housing represents the smallest share of units in nearly every region. This imbalance highlights a structural gap: despite aging populations and ongoing demand for age-specific housing, Senior units are consistently underrepresented. Regions with particularly low Senior or ARO unit counts may signal underserved populations or missed policy opportunities, while areas where one property type is disproportionately dominant may benefit from a more diversified housing mix to meet a broader range of community needs.
+
+<br>
+
+#### *Location Density and Development Opportunity Assessment*
+
+```{r}
+
+housing_clean <- housing_data %>%
+filter(!is.na(Longitude),
+!is.na(Latitude),
+!is.na(Units))
+
+```
+
+```{r}
+filtered <- housing_clean %>%
+  filter(Property_Type %in% c("ARO", "Senior", "Multifamily"))
+
+ggplot(filtered, aes(Longitude, Latitude)) +
+  stat_density2d(
+    aes(fill = after_stat(level)),
+    geom = "polygon",
+    alpha = 0.6
+  ) +
+  scale_fill_gradient(low = "#8edafa", high = "#d84d35") +
+  geom_point(aes(size = Units), alpha = 0.5) +
+  facet_wrap(~ Property_Type) +
+  labs(
+    title = "Density of Affordable Housing Units by Property Type",
+    subtitle = "Comparing ARO, Senior, and Multifamily Housing Densities Across Chicago",
+    x = "Longitude",
+    y = "Latitude",
+    fill = "Density Level",
+    size = "Units"
+  ) +
+  theme_minimal()
+
+```
+
+\n\ \n\ \n\ This graph clearly illustrates the distribution of properties across the three main housing programs (ARO, Senior, and Multifamily), making it easy to compare where the city’s development activity is concentrated. By showing which categories have the highest or lowest number of properties, the graph helps decision-makers quickly identify priority areas, evaluate whether resources are aligned with actual demand, and assess whether current policy or investment strategies are producing the intended mix of housing types. Overall, it provides a straightforward, data-driven snapshot of the city’s housing landscape that supports more informed planning and resource allocation.
+
+<br>
+
+### Strategic Recommendations
+
+Insight 1: Multifamily units dominate all regions, while Senior units are the smallest share.
+
+Insight 2: Regions 1 and 2 have the highest unit concentrations; Regions 3 and 4 are under-served.
+
+Evidence: summary_units table shows Multifamily = ~60–70% of total units per region.
+
+<br>
+
+#### *Insight Summary*
+
+\n\ \n\ \n\ Affordable rental housing in Chicago is heavily concentrated in central regions, with far fewer units in eastern and western areas, highlighting opportunities to expand developments in underserved neighborhoods and improve equitable access. Across all regions, Multifamily properties dominate the supply, while Senior housing consistently represents the smallest share, revealing a structural gap in age-specific housing that may leave older residents underserved. Density analysis of ARO, Senior, and Multifamily units further identifies specific locations where certain property types are underrepresented, enabling the city to strategically prioritize future investments. Together, these insights provide a clear, data-driven foundation for guiding decisions on where and what type of affordable housing to develop next, ensuring a more balanced and responsive housing portfolio aligned with community needs.
+
+<br>
+
+[← Back to Projects](personal_project.html)
+
+[← Back to Home](index.html)
+
+<br>

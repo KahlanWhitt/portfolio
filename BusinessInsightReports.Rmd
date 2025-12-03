@@ -1,0 +1,137 @@
+
+---
+title: "Business Insights Report"
+subtitle: "Data Visualization and Communication"
+author: "Kahlan Whitt--665757837"
+date: "October 31, 2025"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+
+# Executive Summary
+
+The data from the following business performance document shows that online sales bring in the most total revenue, while retail sales have the highest revenue per customer ($314.22) and best conversion rate (5.03%), and mobile sales perform in between both values. This means retail customers spend more each time they buy, but online sales reach more people overall.
+The recommendation is to build on Retail’s strong customer value by creating loyalty or cross-channel programs to boost online and mobile sales.
+
+## Question 1:  Data Preparation and Initial Analysis
+
+```{r}
+
+library(ggplot2)
+
+business_data <- read.csv("business_performance (1).csv")
+```
+
+### Q1. A
+
+```{r}
+str(business_data)
+
+summary(business_data)
+```
+The variables quarter and channel are both categorical because they represent grouped labels rather than numbers. "Quarter" shows the time period (Q1–Q4), and "Channel" identifies the sales platform (Online, Mobile, or Retail).
+The variable revenue is numerical (continuous), with values ranging from 150,231 to 412,125.
+
+### Q1. B
+
+```{r}
+aggregate ( revenue ~ channel,
+            data = business_data,
+            FUN = sum
+            )
+
+aggregate ( customers ~ quarter,
+           data = business_data,
+           FUN = mean
+           )
+```
+Based on the data shown above, the "Online" channel generates the highest total revenue, while the third quarter shows to have the highest average number of customers.
+
+### Q1. C
+```{r}
+business_data$revenue_per_customer <- business_data$revenue / business_data$customers
+
+aggregate(revenue_per_customer ~ channel, 
+          data = business_data, 
+          mean, 
+          na.rm = TRUE
+          )
+
+```
+Based on these numbers, the "Retail" channel has the highest average revenue per customer.
+This data could be used to assume that Retail customers spend substantially more, per customer, than Online or Mobile. That suggests Retail transactions have a higher cost Even though Retail’s total revenue is lower than Online’s, Retail is more valuable on a per-customer basis. Meaning that investing in strategies that increase Retail customer frequency or maintain a higher average order value (e.g., in-store upselling, premium product placement, loyalty rewards) could be a good return on investment. Conversely, Online drives the most total revenue and could be where scale and/or volume-focused tactics are most effective.
+
+## Question 2: Creating Professional Charts
+
+### Q2. A
+
+```{r}
+channel_totals <- aggregate(revenue ~ channel, data = business_data, sum)
+
+ggplot(channel_totals, aes(x = channel, y = revenue)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Total Revenue by Channel", 
+       x = "Sales Channel", y = "Revenue ($)") 
+
+```
+
+Due to both "Mobile" and "Online" channels generating higher total revenue, it would be recommended to invest more time and resources into "Retail". Because there are established procedures for "Mobile" and "Online" that have proven to work well, by putting more effort into "Retail", a higher overall revenue will be produced. 
+
+### Q2. B
+
+```{r}
+ggplot(business_data, aes(x = customers, y = revenue, color = channel)) +
+  geom_point(size = 3) +
+  labs(title = "Customer Count vs Revenue by Channel",
+    x = "Number of Customers",
+    y = "Revenue ($)"
+    ) +
+  scale_color_manual(values = c
+    (
+    "Online" = "#00D17E",
+    "Retail" = "#ff9f00",
+    "Mobile" = "#BA38AF"
+  ))
+```
+
+When looking at this chart, it is seen that the Online statistics show the best growth in converting customers into revenue. This is seen by the range of data points further towards the top of the graph, representing higher revenue values. While the Mobile stats are also compelling with their range of data points, showing growth of increase sales to customers, the Online revenue is overall greater.
+
+## Question 3: Action Plan
+
+### Q3. A
+
+```{r}
+
+library(knitr)
+
+total_rev <- aggregate(revenue ~ channel, data = business_data, sum)
+
+avg_cust <- aggregate(customers ~ channel, data = business_data, mean)
+
+avg_conv <- aggregate(conversion_rate ~ channel, data = business_data, mean, na.rm = TRUE)
+
+avg_rev_per_cust <- aggregate(revenue_per_customer ~ channel, data = business_data, mean, na.rm = TRUE)
+
+summary_table <- merge(total_rev, avg_cust, by = "channel")
+summary_table <- merge(summary_table, avg_rev_per_cust, by = "channel")
+summary_table <- merge(summary_table, avg_conv, by = "channel")
+
+colnames(summary_table) <- c("Channel", "Total Revenue", "Average Customers", "Revenue Per Customer", "Conversion Rate")
+
+kable(summary_table, digits = 3, caption = "Major Values From Business Analytics")
+
+```
+
+### Q3. B
+
+From this table, we see that "Retail" generates both the highest average revenue per customer at $314.22, and highest conversion rate of 5.03%. This contrasts with "Online", which brings in the most total revenue at $5.57M. To improve overall business performance, take advantage of the current customer relationship from Retail. Through loyalty programs and cross-channel incentives, the company can encourage customers to make additional purchases online or via mobile. This strategy capitalizes on Retail’s strong customer value while boosting sales in higher-volume channels.
+
+<br>
+
+[← Back to Projects](personal_project.html)
+
+[← Back to Home](index.html)
+
+<br>

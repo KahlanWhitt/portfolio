@@ -1,0 +1,35 @@
+---
+title: "Estimated Annual Purchases and First-Year Sales"
+---
+
+<br>
+
+According to Grand View Research, the global market for orthopedic and prosthetic development was estimated at $6.6 billion as of 2024. However, in Canada, the prosthetics market was valued at 136.6 million CAD in revenue. The demand for prosthetics and orthopedic assistance is driven by the rising prevalence of osteoarthritis, increasing incidences of sports injuries, and the growing adoption of orthopedic technology (Grand View Research). While these statistics may be concerning, they highlight the need for continued advancements in prosthetics to provide our customers with the best possible quality of life.
+
+<br>
+
+### Estimated First-Year Sales
+
+<br>
+
+Within one year of starting a brand, a company can be estimated to capture 0.5% to 1% of the market. 
+
+Estimated units sold in Canada = Market Revenue/Average Prosthetic Cost
+
+ =136,600,000/15,000
+
+ ≈9,100 Prosthetic Units (nationwide)
+
+**Therefore:**
+
+New Company Sales = 0.5% x 9,100 to 1% x 9,100 
+
+≈ 45 to 91 Prosthetic Units Sold
+
+Finding the average of 68 units sold, and an average base of $7,500 per unit, that gives the company an estimate of $510,000 in sales. This, however, is subject to change due to shifts in market, production cost, and material costs.
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

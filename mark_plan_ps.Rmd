@@ -1,0 +1,27 @@
+---
+title: "Potential Segments"
+---
+
+<br>
+
+### Demographic
+
+Prosthetics and orthotics are primarily catered towards middle-aged to elderly individuals (40+), but also includes younger adults and children who require prosthetics due to accidents, congenital conditions, or medical conditions. This is inclusive of all genders, but it is most affordable to middle to high-income individuals, as advanced prosthetic technology can be costly, though insurance may cover some costs.
+
+### Geographic
+
+As this company originates in Canada, there is high demand in urban centers (Toronto, Vancouver, Montreal) due to access to healthcare, prosthetic clinics, and rehabilitation centers. Cold weather regions require prosthetics designed for extreme temperatures, whereas more temperate areas may have fewer weather-related durability concerns.
+
+### Psychographic
+
+Active users, such as athletes and fitness enthusiasts, seek high-performance prosthetics, while everyday users prioritize comfort and long-term mobility. Tech-savvy individuals are drawn to advanced bionic and myoelectric prosthetics with smart technology integration. Many users value independence, innovation, and high-quality designs, with emotional and psychological adaptation playing a key role in their choices. Aesthetic appeal, functionality, and ease of use influence purchasing decisions, while brand loyalty is driven by durability, comfort, and technological advancements.
+
+### Behavioral
+
+Behavioral segmentation for prosthetic users in Canada focuses on usage frequency, brand loyalty, and purchasing motivations. High-frequency users rely on prosthetics for daily mobility, while occasional users need them for specific activities like sports or work. Brand loyalty is driven by comfort, durability, and advanced technology, though some users may switch for cutting-edge features. Key buying motivations include functionality, comfort, aesthetics, and performance, with decisions often influenced by healthcare professionals, insurance coverage, and peer recommendations.
+
+---
+
+[← Back to Table of Contents](mark_business_plan.html)
+
+[← Back to Home](index.html)

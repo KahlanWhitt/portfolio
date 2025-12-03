@@ -1,0 +1,59 @@
+
+---
+title: <u> Projects </u>
+---
+
+<br>
+
+## Data Analysis and Marketing Projects
+
+Listen below is a list of past projects that demonstrate my skills in analyzing data-sets and turning them into presentable outputs that are readable and understandable. 
+
+### Project 1: Open Data Network Analysis
+
+**Objective:** Analyze public data-sets to extract business insights
+
+**Key Skills:**
+
+- API data access
+- Data quality assessment
+- Aggregation and summarization
+- Business recommendation development
+
+[View detailed analysis →](HousingDevelopmentData.html)
+
+---
+ 
+### Project 2: Business Insight Reports
+
+**Objective:** Clean and analyze operational data to identify performance 
+patterns
+
+**Key Skills:**
+
+- CSV data processing
+- Missing data handling
+- Data visualization
+- Executive reporting
+
+[View detailed analysis →](BusinessInsightReports.html)
+
+---
+
+### Project 3: External Business Plan
+
+**Objective:** Explore a potential marketing strategy that could be implemented into a theoretical company 
+
+**Key Skills:**
+
+- Determining different marketing strategies
+- Creating promotional work for a specific brand
+- Assembling a reasonable timeline to acheive a goal
+- Extensive research 
+
+[View detailed analysis →](mark_business_plan.html)
+
+---
+
+[← Back to Home](index.html)
+
