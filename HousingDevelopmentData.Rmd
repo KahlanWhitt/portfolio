@@ -33,14 +33,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \n\ \n\ \n\ Our business needs to analyze how the number and type of affordable housing units are distributed across different sections of the city. This can help identify imbalances in housing availability; for example, areas with many senior units but few family units. By analyzing data on existing affordable housing developments, including location, property type, and units available, the business can prioritize future projects that fill specific gaps in the local housing market and improve overall community access to affordable housing.
 
-```{r}
-
-library(ggplot2)
-
-housing_data <- read.csv("Housing_Data.csv")
-
-```
-
 <br>
 
 ### Data Source Assessment
