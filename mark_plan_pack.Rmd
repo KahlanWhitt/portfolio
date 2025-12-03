@@ -18,13 +18,13 @@ For shipping, the metal case is placed inside waterproof cardboard packaging, wh
 
 ```{r, echo=FALSE}
 
-knitr::include_graphics("C:/Users/kahla/OneDrive/Documents/EManagement_Module1/my_portfolio/IMG_8580.jpg")
+knitr::include_graphics("IMG_8580.jpg")
 
 ```
 
 ```{r, echo=FALSE}
 
-knitr::include_graphics("C:/Users/kahla/OneDrive/Documents/EManagement_Module1/my_portfolio/IMG_8581.jpg")
+knitr::include_graphics("IMG_8581.jpg")
 
 ```
 

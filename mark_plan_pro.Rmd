@@ -60,7 +60,7 @@ This campaign not only drives awareness and engagement but also strengthens our 
 
 ```{r, echo=FALSE}
 
-knitr::include_graphics("C:/Users/kahla/OneDrive/Documents/EManagement_Module1/my_portfolio/Screenshot 2025-12-01 112616.png")
+knitr::include_graphics("Screenshot 2025-12-01 112616.png")
 ```
 
 ---
