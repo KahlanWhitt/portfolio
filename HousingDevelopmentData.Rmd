@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(ggplot2)
 
-housing_data <- read.csv("C:\\Users\\kahla\\OneDrive\\Documents\\EManagement_Module1\\my_portfolio\\Housing_Data.csv")
+housing_data <- read.csv("Housing_Data.csv")
 
 ```
 
@@ -65,7 +65,7 @@ housing_data <- read.csv("C:\\Users\\kahla\\OneDrive\\Documents\\EManagement_Mod
 
 library(ggplot2)
 
-housing_data <- read.csv("C:\\Users\\kahla\\OneDrive\\Documents\\EManagement_Module1\\my_portfolio\\Housing_Data.csv")
+housing_data <- read.csv("Housing_Data.csv")
 
 ```
 
